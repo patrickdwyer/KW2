@@ -1,0 +1,91 @@
+/* -----------------------------------------
+	Mixins
+----------------------------------------- */
+
+@mixin transition-all() {
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+@mixin transform-all($amount) {
+	-webkit-transform: scale($amount);
+	-moz-transform: scale($amount);
+	-ms-transform: scale($amount);
+	-o-transform: scale($amount);
+	transform: scale($amount);
+}
+
+@mixin background-cover() {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+@mixin button-variant($color, $hoverColor, $background, $border) {
+	color: $color;
+	letter-spacing: 2px;
+	background-image: none;
+	background-color: transparent;
+	border-color: $border;
+	font-family: $secondary-font;
+	font-size: 16px;
+	text-transform: uppercase;
+	white-space: normal;
+	@include transition-all;
+
+	&:focus,
+  	&.focus {
+		color: $hoverColor;
+		background-color: darken($background, 10%);
+		border-color: darken($border, 25%);
+  	}
+
+  	&:hover {
+		color: $hoverColor;
+		background-color: $background;
+		border-color: $background;
+	}
+
+	&:active,
+	&.active,
+	.open > &.dropdown-toggle {
+		color: $hoverColor;
+		background-color: darken($background, 10%);
+		border-color: darken($border, 10%);
+
+		&:hover,
+		&:focus,
+		&.focus {
+			color: $hoverColor;
+			background-color: darken($background, 17%);
+			border-color: darken($border, 25%);
+		}
+	}
+
+	&:active,
+	&.active,
+	.open > .dropdown-toggle {
+		background-image: none;
+	}
+
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] {
+		&,
+		&:hover,
+		&:focus,
+		&.focus,
+		&:active,
+		&.active {
+			background-color: $background;
+			border-color: $border;
+		}
+	}
+
+	.badge {
+		color: $background;
+		background-color: $color;
+	}
+}
