@@ -70,7 +70,7 @@ $brandGoldBtnFill:		#eee7df;
 .mb0, .promo-box:last-child, .help-box:last-child, .sidebar .name {
   margin-bottom: 0 !important; }
 
-.mb10, .promo-box .copy-box .eyebrow, .help-box .eyebrow, .sidebar .large-stat {
+.mb10, .promo-box .copy-box .eyebrow, .promo-box .copy-box .partner-list ul li, .partner-list ul .promo-box .copy-box li, .promo-box .copy-box .benefit-list ul li, .benefit-list ul .promo-box .copy-box li, .help-box .eyebrow, .help-box .partner-list ul li, .partner-list ul .help-box li, .help-box .benefit-list ul li, .benefit-list ul .help-box li, .sidebar .large-stat {
   margin-bottom: 10px !important; }
 
 .mb20, .team-box .position, .articles .title, .featured-article .title, .post figure.full-width-image img, .footer h2 {
@@ -238,6 +238,9 @@ h6 {
   font-family: "Ciutadella-Bold", Helvetica, Arial, sans-serif;
   line-height: 1; }
 
+h1 {
+  margin-bottom: 20px; }
+
 h1:first-child,
 h2:first-child,
 h3:first-child,
@@ -310,7 +313,8 @@ Misc
   color: #fffcf8; }
 
 .bg-secondary {
-  background-color: #c6893f; }
+  background-color: #c6893f;
+  color: #fffcf8; }
 
 .bg-dark {
   background-color: #222222;
@@ -648,7 +652,36 @@ body {
   margin: 0 auto;
   border-radius: 50%; }
 
-.eyebrow {
+.bg-cover {
+  background-position: center;
+  background-size: cover; }
+
+.instagram-feed .pic {
+  position: relative; }
+
+.icon-disc {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  width: 73px;
+  height: 73px;
+  background: rgba(198, 137, 63, 0.9);
+  border: none;
+  border-radius: 50%;
+  font-size: 45px;
+  line-height: 73px;
+  color: #fffcf8;
+  text-align: center; }
+  .icon-disc:hover {
+    background: rgba(0, 59, 92, 0.9);
+    color: #fffcf8; }
+
+.map-box iframe {
+  width: 100%;
+  height: 440px; }
+
+.eyebrow, .partner-list ul li, .benefit-list ul li {
   font-family: "Ciutadella-SemiBold", Helvetica, Arial, sans-serif;
   font-size: 0.941em;
   line-height: 1.250;
@@ -661,10 +694,13 @@ a.annotation {
   background: #e4d4c0;
   border-bottom: none;
   border-radius: 4px;
-  color: #003451; }
+  color: #003451;
+  white-space: nowrap; }
   a.annotation:hover, a.annotation:focus {
     background: #c6893f;
     color: #fffcf8; }
+  a.annotation:after {
+    content: ' ›'; }
 
 .pull-quote {
   float: right;
@@ -730,6 +766,8 @@ a.annotation {
 
 .promo-box {
   padding: 0; }
+  .promo-box.border-creme {
+    border: 1px solid #fffcf8; }
   .promo-box .copy-box {
     padding: 50px 40px; }
     .promo-box .copy-box .title {
@@ -747,7 +785,7 @@ a.annotation {
     border: none; }
   .help-box .title {
     font-size: 2.588em; }
-  .help-box .eyebrow {
+  .help-box .eyebrow, .help-box .partner-list ul li, .partner-list ul .help-box li, .help-box .benefit-list ul li, .benefit-list ul .help-box li {
     font-size: 1.118em; }
   .help-box .chevron-list {
     padding-left: 0;
@@ -786,10 +824,10 @@ a.annotation {
         content: ' ›'; }
 
 .sidebar {
-  margin-top: 40px;
-  margin-left: 20px;
-  padding-left: 60px;
-  border-left: 1px solid #e4d4c0; }
+  margin-top: 40px; }
+  .sidebar .body {
+    font-size: 0.882em;
+    line-height: 1.533; }
   .sidebar .quote {
     font-size: 0.882em;
     line-height: 1.533; }
@@ -798,7 +836,7 @@ a.annotation {
     font-size: 0.941em;
     line-height: 1.313;
     text-transform: uppercase; }
-  .sidebar .eyebrow.undercase {
+  .sidebar .eyebrow.undercase, .sidebar .partner-list ul li.undercase, .partner-list ul .sidebar li.undercase, .sidebar .benefit-list ul li.undercase, .benefit-list ul .sidebar li.undercase {
     font-size: 0.824em;
     letter-spacing: normal;
     text-transform: none; }
@@ -811,23 +849,48 @@ a.annotation {
     line-height: 1.458;
     color: #0e828e;
     font-style: italic; }
+  @media (max-width: 991px) {
+    .sidebar {
+      padding-top: 20px;
+      border-top: 1px solid #e4d4c0; } }
+  @media (min-width: 768px) {
+    .sidebar {
+      margin-left: 20px;
+      padding-left: 60px;
+      border-left: 1px solid #e4d4c0; } }
 
-.border-between > [class*='col-']:before {
-  background: #e4d4c0;
-  bottom: 0;
-  content: " ";
-  left: 0;
-  position: absolute;
-  width: 1px;
-  top: 0; }
+.bg-primary .sidebar {
+  border-color: #286486; }
 
-.border-between > [class*='col-']:first-child:before {
-  display: none; }
+.bg-primary a.annotation {
+  background: #286486;
+  color: #fffcf8; }
+  .bg-primary a.annotation:hover, .bg-primary a.annotation:focus {
+    background: #c6893f; }
+
+.bg-secondary a.annotation {
+  background: #0e828e;
+  color: #fffcf8; }
+  .bg-secondary a.annotation:hover, .bg-secondary a.annotation:focus {
+    background: #003b5c; }
+
+@media (min-width: 768px) {
+  .border-between > [class*='col-']:before {
+    background: #e4d4c0;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0; }
+  .border-between > [class*='col-']:first-child:before {
+    display: none; } }
 
 /* -----------------------------------------
 	Header
 ----------------------------------------- */
 .header {
+  position: relative;
   padding: 150px 0 80px 0;
   background: #003b5c; }
   .header.page-title {
@@ -848,7 +911,7 @@ a.annotation {
       color: #d3924a; }
   .header a {
     padding: 2px 11px;
-    background: #0e828e;
+    background: #286486;
     border-bottom: none;
     border-radius: 4px;
     color: #fffcf8; }
@@ -856,7 +919,7 @@ a.annotation {
       background: #c6893f; }
     .header a:after {
       content: ' ›'; }
-  .header .eyebrow {
+  .header .eyebrow, .header .partner-list ul li, .partner-list ul .header li, .header .benefit-list ul li, .benefit-list ul .header li {
     color: #d3924a; }
   .header .title {
     line-height: 1;
@@ -879,6 +942,15 @@ a.annotation {
 /* -----------------------------------------
 	Sections
 ----------------------------------------- */
+.content-media-1 .row,
+.content-media-2 .row {
+  margin-right: -5px;
+  margin-left: -5px; }
+  .content-media-1 .row > [class*='col-'],
+  .content-media-2 .row > [class*='col-'] {
+    padding-right: 5px;
+    padding-left: 5px; }
+
 section.divider {
   border-bottom: 1px solid #003451; }
 
@@ -1025,18 +1097,93 @@ section.overflow-hidden {
 /* -----------------------------------------
 	Goodstock
 ----------------------------------------- */
-/*.client-list {
+.goodstock-bird-logo {
+  position: absolute;
+  right: 20%;
+  bottom: 0;
+  width: 90px;
+  height: 94px; }
 
-	ul {
-		-webkit-columns: 3;
-		-moz-columns: 3;
-		columns: 3;
-	}
+.client-list {
+  padding: 0; }
+  .client-list ul {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3; }
 
-	li {
-		line-height: 2.667;
-	}
-}*/
+.partner-list ul {
+  webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2; }
+  .partner-list ul li {
+    padding-top: 5px;
+    border-top: 1px solid #286486;
+    font-size: 1.200em;
+    color: #d3924a; }
+    .partner-list ul li a {
+      border: none;
+      color: #d3924a; }
+      .partner-list ul li a:hover, .partner-list ul li a:focus {
+        color: #fffcf8; }
+
+/* -----------------------------------------
+	Careers
+----------------------------------------- */
+.benefit-list {
+  position: relative;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-right: 1px solid #e4d4c0; }
+  .benefit-list:last-child {
+    border: none; }
+  .benefit-list .number {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    font-size: 120px;
+    line-height: 1;
+    color: #e4d4c0; }
+  .benefit-list .title {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 1.529em;
+    line-height: 1.192; }
+  .benefit-list .desc {
+    margin-bottom: 30px;
+    font-size: 0.882em;
+    line-height: 1.533; }
+  .benefit-list ul {
+    padding-left: 0;
+    list-style: none; }
+    .benefit-list ul li {
+      padding-top: 5px;
+      padding-bottom: 15px;
+      border-top: 1px solid #e4d4c0;
+      font-size: 1.059em; }
+
+.current-opportunities {
+  margin-bottom: 90px; }
+  .current-opportunities .title {
+    margin-bottom: 30px;
+    font-size: 58px; }
+
+/* -----------------------------------------
+	Contact
+----------------------------------------- */
+.contact-bar {
+  font-size: 0.824em;
+  line-height: 1;
+  text-align: center; }
+  .contact-bar > li {
+    padding-right: 12px;
+    padding-left: 10px;
+    border-right: 1px solid #003b5c; }
+    .contact-bar > li:last-child {
+      border-right: none; }
+  .contact-bar a {
+    border-width: 2px; }
+
 /* -----------------------------------------
 	Footer
 ----------------------------------------- */

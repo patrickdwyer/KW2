@@ -16,6 +16,7 @@
 									</div>
 								</div>
 							</div>
+							<? if ($display == 4): ?>
 							<div class="col-sm-6">
 								<div class="project-container" style="background-image: url(/img/project-sample-gold.jpg);">
 									<div class="middle">
@@ -32,6 +33,7 @@
 									</div>
 								</div>
 							</div>
+							<? endif ?>
 						</div>
 					</section>
 

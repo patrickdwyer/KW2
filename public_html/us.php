@@ -114,23 +114,25 @@
 						</div>
 					</div>
 
-					<section class="promo-box">
+					<section class="promo-box bg-primary">
 						<div class="row">
-							<div class="col-sm-7 col-md-8 copy-box bg-primary match-height">
+							<div class="col-sm-7 col-md-8 copy-box match-height">
 								<p class="eyebrow">Always Relevant. Regularly Refreshed.</p>
 								<h2 class="title">Valuable Thinking</h2>
 								<p class="lead">New perspectives on building valuable brand experiences, customer loyalty and love.</p>
 							</div>
-							<div class="col-sm-5 col-md-4 image-box match-height" style="background-image: url(https://unsplash.it/400/400?image=400);">
+							<div class="col-sm-5 col-md-4 match-height">
+								<div class="image-box match-height" style="background-image: url(https://unsplash.it/400/400?image=400);"></div>
 							</div>
 						</div>
 					</section>
 
-					<section class="promo-box">
+					<section class="promo-box bg-primary">
 						<div class="row">
-							<div class="col-sm-5 col-md-4 image-box match-height" style="background-image: url(https://unsplash.it/400/400?image=200);">
+							<div class="col-sm-5 col-md-4 match-height">
+								<div class="image-box match-height" style="background-image: url(https://unsplash.it/400/400?image=200);"></div>
 							</div>
-							<div class="col-sm-7 col-md-8 copy-box bg-primary match-height">
+							<div class="col-sm-7 col-md-8 copy-box match-height">
 								<p class="eyebrow">Presenting Goodstock</p>
 								<h2 class="title">Goodstock</h2>
 								<p class="lead">KW2’s favorite 24-hour marketing marathon, Goodstock, is a chance to give back to the community we love. While wearing pajamas</p>

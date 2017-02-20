@@ -49,6 +49,10 @@ h6 {
 	line-height: 1;
 }
 
+h1 {
+	margin-bottom: 20px;
+}
+
 h1:first-child,
 h2:first-child,
 h3:first-child,
@@ -128,6 +132,7 @@ Misc
 
 .bg-secondary {
 	background-color: $theme-secondary;
+	color: $brandCremeText;
 }
 
 .bg-dark {

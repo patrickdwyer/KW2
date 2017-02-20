@@ -26,6 +26,6 @@
 		</div>
 	</section>
 
-	<?php include '_includes/featured-projects.php';?>
+	<?php $display = 4; include '_includes/featured-projects.php';?>
 
 <?php include '_includes/footer.php';?>
