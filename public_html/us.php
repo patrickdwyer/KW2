@@ -1,6 +1,6 @@
 <?php include '_includes/header.php';?>
 
-	<header class="header page-title" style="background-image: url(/img/bg-us.jpg);>
+	<header class="header page-title" style="background-image: url(/img/bg-us.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
@@ -12,15 +12,15 @@
 		</div>
 	</header>
 
-	<section class="bg-base">
+	<section class="bg-base bg-cover" style="background-image: url(/img/bg-staff-meeting.jpg);">
 		<div class="container content-container">
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-2">
 					<!--start content-->
 					<p class="eyebrow text-center">Capabilities</p>
-					<h2 class="subtitle text-center">Here’s what we believe.</h2>
+					<h1 class="text-center">Here’s what we believe.</h1>
 					<p>Great work and great relationships are born from shared understanding. When an agency’s culture complements the client’s culture—when their definitions of success and collaboration fundamentally agree—that’s when two organizations start performing as one.</p>
-					<p>Understanding like that takes work and willingness. But KW2 always puts in the time. Starting with the arrival of your Common Cup, throughout our immersive <a href="#">onboarding</a> and the creative process, we’ll work side-by-side to find your difference. To distill your intangible value. And to create the sort of intelligently <a href="#" class="annotation">disruptive ›</a> communications that will fire your customers’ imaginations and set your competition back on their heels.</p>
+					<p>Understanding like that takes work and willingness. But KW2 always puts in the time. Starting with the arrival of your Common Cup, throughout our immersive <a href="#">onboarding</a> and the creative process, we’ll work side-by-side to find your difference. To distill your intangible value. And to create the sort of intelligently <a href="#" class="annotation">disruptive</a> communications that will fire your customers’ imaginations and set your competition back on their heels.</p>
 					<p>For 30 years, KW2 has helped leading organizations—like Berkshire Hathaway, Lands’ End, Schwinn and both the University of and State of Wisconsin—create stories and <a href="#">experiences that build delight, loyalty and love</a>.</p>
 					<!--end content-->
 				</div>
@@ -85,6 +85,9 @@
 							<p class="eyebrow position">VP of New Business, Co-Owner</p>
 							<p class="bio">As the head of accounts, Jen leads marketing research, planning and strategy. Before joining KW2, Jen served as a brand strategist and director of account planning in Seattle, working on projects for Microsoft, Boeing and T-Mobile. She a regular guest speaker at the University of Wisconsin, a Governor’s Business Plan Contest judge and a Wisconsin Technology Council guest panelist. And at the Y, they call her “The Birthday Lady,” which is so much cooler than it sounds.</p>
 						</div>
+
+						<div class="clearfix visible-sm-block"></div>
+
 						<div class="col-sm-6 col-md-4 team-box">
 							<img src="http://placehold.it/177x177" alt="" class="photo-circle img-responsive">
 							<h3 class="name"><a href="#" class="annotation">Tim Christian</a></h3>
@@ -92,7 +95,7 @@
 							<p class="bio">As the hands-on leader of KW2’s UX, digital media and project management pros, Tim steers the research and recommendations that define our website and digital media strategies. He graduated from the University of Kansas before cutting his teeth at Carmichael Lynch and Young & Rubicam on clients like Cargill, Lincoln-Mercury and 3M. His dream project? Building a data-driven ecosystem for KW2 that helps our customers and their customers make smarter decisions.</p>
 						</div>
 
-						<div class="clearfix hidden-xs-block"></div>
+						<div class="clearfix visible-md-block visible-lg-block"></div>
 
 						<div class="col-sm-6 col-md-4 team-box">
 							<img src="http://placehold.it/177x177" alt="" class="photo-circle img-responsive">
@@ -100,6 +103,9 @@
 							<p class="eyebrow position">Public Sector Account Supervisor</p>
 							<p class="bio">After sixteen-plus years of experience earned at Leo Burnett, GSD&M, Cramer-Krasselt and KW2, Michelle Sweet has marketed almost everything—from scrappy local start-ups and statewide social impact campaigns to globally-recognized consumer brands like Kellogg’s, Heinz, Famous Footwear and GNC. The point person for all of KW2’s Public Sector accounts, Michelle is adept at managing complex budgets, building consensus and navigating multilayered processes common to government agencies, nonprofits and community coalitions.</p>
 						</div>
+
+						<div class="clearfix visible-sm-block"></div>
+
 						<div class="col-sm-6 col-md-4 team-box">
 							<img src="http://placehold.it/177x177" alt="" class="photo-circle img-responsive">
 							<h3 class="name"><a href="#" class="annotation">Scott Cooper</a></h3>

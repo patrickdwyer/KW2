@@ -36,28 +36,3 @@
 							<? endif ?>
 						</div>
 					</section>
-
-					<!--<section class="featured-projects">
-						<div class="row no-gutter">
-							<div class="col-sm-6">
-								<div class="project-container">
-									<img src="https://unsplash.it/448/297?image=800" alt="" class="img-responsive">
-									<div class="overlay"></div>
-									<div class="middle">
-										<h3 class="title">Wisconsin Union</h3>
-										<a href="#" class="btn btn-default">View Project</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="project-container">
-									<img src="https://unsplash.it/448/297?image=800" alt="" class="img-responsive">
-									<div class="overlay"></div>
-									<div class="middle">
-										<h3 class="title">Name of Our Amazing Client</h3>
-										<a href="#" class="btn btn-default">View Project</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>-->

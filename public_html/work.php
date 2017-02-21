@@ -1,6 +1,6 @@
 <?php include '_includes/header.php';?>
 
-	<header class="header page-title" style="background-image: url(/img/bg-work.jpg);>
+	<header class="header page-title" style="background-image: url(/img/bg-work.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
@@ -19,7 +19,7 @@
 					<!--start content-->
 					<p class="eyebrow text-center">Clients</p>
 					<div class="row border-between">
-						<div class="col-sm-4 client-list">
+						<div class="col-sm-6 col-md-4 client-list-box">
 							<h3 class="title">Business Services</h3>
 							<p>Our strategists help professional service firms across a wide range of industries boldly differentiate their way to success.</p>
 							<ul class="list-unstyled">
@@ -32,7 +32,7 @@
 							</ul>
 							<a href="#" class="btn btn-primary btn-sm">View More +</a>
 						</div>
-						<div class="col-sm-4 client-list">
+						<div class="col-sm-6 col-md-4 client-list-box">
 							<h3 class="title">Education</h3>
 							<p>With websites and Adwords, TV spots and compelling, student-focused storytelling, KW2’s mobilizing the next generation of learners.</p>
 							<ul>
@@ -44,7 +44,10 @@
 							</ul>
 							<a href="#" class="btn btn-primary btn-sm">View More +</a>
 						</div>
-						<div class="col-sm-4 client-list">
+
+						<div class="clearfix visible-sm-block"></div>
+
+						<div class="col-sm-6 col-md-4 client-list-box">
 							<h3 class="title">Public Sector</h3>
 							<p>For 30 years, we’ve partnered with government agencies and leading nonprofits to make Wisconsin a safer, healthier place.</p>
 							<ul>
@@ -58,9 +61,9 @@
 							<a href="#" class="btn btn-primary btn-sm">View More +</a>
 						</div>
 
-						<div class="clearfix hidden-xs-block mb60"></div>
+						<div class="clearfix visible-md-block visible-lg-block"></div>
 
-						<div class="col-sm-4 client-list">
+						<div class="col-sm-6 col-md-4 client-list-box">
 							<h3 class="title">Health</h3>
 							<p>We start smart, human conversations about treatment, insurance and prevention that allow organizations to connect and drive change.</p>
 							<ul>
@@ -72,7 +75,10 @@
 							</ul>
 							<a href="#" class="btn btn-primary btn-sm">View More +</a>
 						</div>
-						<div class="col-sm-4 client-list">
+
+						<div class="clearfix visible-sm-block"></div>
+
+						<div class="col-sm-6 col-md-4 client-list-box">
 							<h3 class="title">Lifestyle</h3>
 							<p>KW2 empowers companies to share their value—and sell more of the products, solutions and experiences their customers love.</p>
 							<ul>

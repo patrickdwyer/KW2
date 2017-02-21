@@ -15,7 +15,7 @@
 	<section class="bg-base post post-single">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-8 col-sm-offset-2">
 					<!--start content-->
 					<a href="#" class="btn btn-primary pull-right">Share</a>
 					<p class="author">By Scott Cooper</p>
@@ -44,7 +44,17 @@
 					<p>Morbi felis libero, eleifend sit amet porta sed, cursus finibus velit. Donec id egestas nulla. Nam sit amet pretium purus. Phasellus sit amet ultrices felis. Nullam dignissim, dui nec malesuada laoreet, risus sapien cursus mi, in rhoncus elit enim suscipit nulla. Sed porta, ante vel pulvinar convallis, ligula purus posuere mauris, non accumsan dui lorem eu velit. Suspendisse vitae eros sed diam aliquet malesuada id et arcu.</p>
 
 					<a href="#" class="btn btn-primary btn-lg mt60 mb10">Back to All Articles</a>
+					<!--end content-->
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="bg-base">
+		<div class="container content-container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-2">
+					<!--start content-->
 					<?php include '_includes/articles-list.php';?>
 					<!--end content-->
 				</div>

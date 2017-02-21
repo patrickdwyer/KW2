@@ -13,6 +13,8 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/lib/owl.carousel.min.css">
+	<link rel="stylesheet" href="/css/lib/owl.theme.default.min.css">
 	<link rel="stylesheet" href="/css/main.css">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,9 +28,10 @@
 
 <body>
 
-	<nav class="navbar navbar-fixed-left">
+	<nav class="navbar navbar-fixed-left bg-creme">
 		<a class="navbar-brand" href="/">
-			<img src="/img/logo-kw2-creme.png" srcset="/img/logo-kw2-creme@2x.png 2x, /img/logo-kw2-creme@3x.png 3x" alt="KW2" class="logo">
+			<img src="/img/logo-kw2-creme.png" srcset="/img/logo-kw2-creme@2x.png 2x, /img/logo-kw2-creme@3x.png 3x" alt="KW2" class="logo logo-creme">
+			<img src="/img/logo-kw2-gold.png" srcset="/img/logo-kw2-gold@2x.png 2x, /img/logo-kw2-gold@3x.png 3x" alt="KW2" class="logo logo-gold">
 		</a>
 		<ul class="nav navbar-nav">
 			<li><a href="#">Work</a></li>

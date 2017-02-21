@@ -1,1 +1,1 @@
-jQuery(function(h){h(".match-height").matchHeight()});
+jQuery(function(e){e(".match-height").matchHeight(),e(".process-carousel").owlCarousel({center:!0,items:1,loop:!0,margin:20,responsive:{600:{items:2}}})});

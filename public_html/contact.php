@@ -18,21 +18,21 @@
 				<div class="col-sm-10 col-sm-offset-2">
 					<!--start content-->
 					<div class="row border-between">
-						<div class="col-sm-4 team-box text-center">
+						<div class="col-sm-12 col-md-4 team-box text-center">
 							<img src="http://placehold.it/177x177" alt="" class="photo-circle img-responsive mb40">
 							<h3>KW2</h3>
 							<p class="eyebrow position">2010 Eastwood Drive Madison, WI 53704</p>
 							<p>For general inquiries or just to say hello! We’d love to hear form you.</p>
 							<a href="#" class="btn btn-primary btn-lg">Email Us</a>
 						</div>
-						<div class="col-sm-4 team-box text-center">
+						<div class="col-sm-6 col-md-4 team-box text-center">
 							<img src="http://placehold.it/177x177" alt="" class="photo-circle img-responsive mb40">
 							<h3 class="name"><a href="#" class="annotation">Jennifer Savino</a></h3>
 							<p class="eyebrow position">VP of New Business & Co-Owner</p>
 							<p>For new business inquiries or questions about what we do.</p>
 							<a href="#" class="btn btn-primary btn-lg">Email Jen</a>
 						</div>
-						<div class="col-sm-4 team-box text-center">
+						<div class="col-sm-6 col-md-4 team-box text-center">
 							<img src="http://placehold.it/177x177" alt="" class="photo-circle img-responsive mb40">
 							<h3 class="name"><a href="#" class="annotation">Joseph Muenich</a></h3>
 							<p class="eyebrow position">For careers and everything else you need</p>

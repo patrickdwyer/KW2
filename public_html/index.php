@@ -14,7 +14,7 @@
 	<section class="featured-projects case-studies container-fluid">
 		<div class="row no-gutter">
 			<div class="col-sm-12">
-				<div class="project-container" style="background-image: url(/img/project-sample-blue.jpg)">
+				<div class="project-container" style="background-image: url(/img/project-sample-case-studies.jpg)">
 					<div class="overlay"></div>
 					<div class="middle">
 						<p class="eyebrow">Our Work</h3>

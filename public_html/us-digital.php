@@ -18,13 +18,13 @@
 				<div class="col-sm-10 col-sm-offset-2">
 					<!--start content-->
 					<div class="row">
-						<div class="col-sm-8">
+						<div class="col-sm-7 col-md-8">
 							<p class="eyebrow text-center">Our Digital Philosophy</p>
 							<h1>We think about people, content and technology. In that order.</h1>
 							<p>Our approach isn’t hard to explain. We put users at the center of every decision we make, because deeply understanding your customer leads to smarter strategies, more intuitive architecture, the most engaging content and truly compelling designs.</p>
 							<p>Of course, the best digital experiences also marry form and function without sacrificing one for the other. That’s what our content-first design process achieves. Prioritizing content makes every interaction relevant. It uncovers <a href="#">unique opportunities</a> and worst case scenarios, ensuring design and technology enhance instead of encumber. And it seamlessly integrates your brand and digital strategies, so you can tell a cohesive story in any channel.</p>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-sm-5 col-md-4">
 							<div class="sidebar">
 								<p class="eyebrow">Digitizing Our Modern World With Style.</p>
 								<p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu hendrerit quam. "</p>
@@ -40,8 +40,8 @@
 		</div>
 	</section>
 
-	<section class="bg-base">
-		<div class="container content-container">
+	<section class="bg-base pt0 pb20">
+		<div class="container-fluid content-container content-media-2">
 			<div class="row">
 				<div class="col-sm-12">
 					<!--start content-->
@@ -51,7 +51,6 @@
 						</div>
 						<div class="col-sm-6">
 							<img src="http://placehold.it/586x388" alt="" class="img-responsive">
-							</div>
 						</div>
 					</div>
 					<!--end content-->
@@ -68,13 +67,13 @@
 					<p class="eyebrow mb60">We're Here to Help You:</p>
 					<div class=" help-box">
 						<div class="row">
-							<div class="col-sm-3">
+							<div class="col-sm-12 col-md-3">
 								<h2 class="title">Meet them where they are.</h2>
 							</div>
-							<div class="col-sm-5">
+							<div class="col-sm-6 col-md-5">
 								<p>Showing up is essential. As the lines between awareness, consideration and action blur (thanks, Internet), connecting with customers where they shop, research, pin and post matters more than ever.</p>
 							</div>
-							<div class="col-sm-4">
+							<div class="col-sm-6 col-md-4">
 								<p class="eyebrow">Capabilities</p>
 								<ul class="chevron-list">
 									<li>Inbound Marketing</li>
@@ -87,13 +86,13 @@
 					</div>
 					<div class="help-box">
 						<div class="row">
-							<div class="col-sm-3">
+							<div class="col-sm-12 col-md-3">
 								<h2 class="title">Make them see your value.</h2>
 							</div>
-							<div class="col-sm-5">
+							<div class="col-sm-6 col-md-5">
 								<p>Separate the data from the noise. Conduct primary research, measure usefully and make your analytics talk—because there no substitute for knowing exactly what makes your particular customers tick and click.</p>
 							</div>
-							<div class="col-sm-4">
+							<div class="col-sm-6 col-md-4">
 								<p class="eyebrow">Capabilities</p>
 								<ul class="chevron-list">
 									<li>User Research</li>
@@ -105,13 +104,13 @@
 					</div>
 					<div class="help-box">
 						<div class="row">
-							<div class="col-sm-3">
+							<div class="col-sm-12 col-md-3">
 								<h2 class="title">Understand who they are.</h2>
 							</div>
-							<div class="col-sm-5">
+							<div class="col-sm-6 col-md-5">
 								<p>Craft a user-centric experience that solves problems, sets the standard in your industry and, more importantly, makes your customer excited to engage, act and share your story—their story—with others.</p>
 							</div>
-							<div class="col-sm-4">
+							<div class="col-sm-6 col-md-4">
 								<p class="eyebrow">Capabilities</p>
 								<ul class="chevron-list">
 									<li>Digital Marketing Strategy</li>
@@ -141,17 +140,31 @@
 		</div>
 	</section>
 
-	<section class="bg-base">
-		<div class="container content-container">
+	<section class="bg-base pt0 pb20">
+		<div class="container-fluid content-container content-media-2">
 			<div class="row">
 				<div class="col-sm-12">
 					<!--start content-->
-					<div class="row">
-						<div class="col-sm-6">
-							<img src="http://placehold.it/586x388" alt="" class="img-responsive">
+					<div class="owl-carousel process-carousel owl-theme">
+						<div class="process-box">
+							<img src="http://placehold.it/621x300" alt="" class="img-responsive">
+							<div class="lower">
+								<p class="eyebrow">Discovery</p>
+								<p class="desc">Intake meetings, user research and a review of your analytics provide a bird’s eye view of your digital landscape, showing us just how well your business goals and users’ desires align.</p>
+							</div>
 						</div>
-						<div class="col-sm-6">
-							<img src="http://placehold.it/586x388" alt="" class="img-responsive">
+						<div class="process-box">
+							<img src="http://placehold.it/621x300" alt="" class="img-responsive">
+							<div class="lower">
+								<p class="eyebrow">Planning & Content Strategy</p>
+								<p class="desc">The most important team huddle we have, our Content Strategy workshop lays the groundwork for site form and functions. Other results? Technical specs, beautiful wireframes and a clear way forward.</p>
+							</div>
+						</div>
+						<div class="process-box">
+							<img src="http://placehold.it/621x300" alt="" class="img-responsive">
+							<div class="lower">
+								<p class="eyebrow">A 3rd Phase</p>
+								<p class="desc">Intake meetings, user research and a review of your analytics provide a bird’s eye view of your digital landscape, showing us just how well your business goals and users’ desires align.</p>
 							</div>
 						</div>
 					</div>
@@ -220,6 +233,7 @@
 									<img src="/img/icon-youtube.png" srcset="/img/icon-youtube@2x.png 2x, /img/icon-youtube@3x.png 3x" alt="Video Advertising">
 									<h3 class="title">Video Advertising</h3>
 								</div>
+								<div class="clearfix hidden-xs-block"></div>
 								<div class="col-sm-4 knowledge-box">
 									<img src="/img/icon-designer.png" srcset="/img/icon-designer@2x.png 2x, /img/icon-designer@3x.png 3x" alt="Display Advertising">
 									<h3 class="title">Display Advertising</h3>
@@ -233,7 +247,7 @@
 						<div class="col-sm-4">
 							<div class="sidebar pt60 pb60">
 								<p class="large-stat text-center">1,089</p>
-								<img src="/img/logo-google-adwords.png" srcset="/img/logo-google-adwords@2x.png 2x, /img/logo-google-adwords@3x.png 3x" alt="Google Ad Words" class="img-responsive mb20">
+								<img src="/img/logo-google-adwords.png" srcset="/img/logo-google-adwords@2x.png 2x, /img/logo-google-adwords@3x.png 3x" alt="Google Ad Words" class="img-responsive mb20 center-block">
 								<p class="name text-center">That's the number of Google Adwords purchases we made for our clients last month alone.</p>
 							</div>
 						</div>

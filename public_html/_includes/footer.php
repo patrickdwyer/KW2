@@ -14,7 +14,7 @@
 				<div class="col-sm-10 col-sm-offset-2">
 					<ul class="list-inline bottom-bar">
 						<li>
-							&copy; KW2
+							&copy; 2016 KW2
 						</li>
 						<li>
 							2010 Eastwood Drive, Ste. 300, Madison, WI 53704
@@ -34,6 +34,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="/js/lib/jquery.MatchHeight-min.js"></script>
+	<script src="/js/lib/owl.carousel.min.js"></script>
 	<script src="/js/main.js"></script>
 
 </body>

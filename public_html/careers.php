@@ -18,15 +18,15 @@
 				<div class="col-sm-10 col-sm-offset-2">
 					<!--start content-->
 					<h1 class="subtitle">Work and life at KW2</h1>
-					<div class="row mt40 mb40">
+					<div class="row mt40 mb30">
 						<div class="col-sm-4">
-							<img src="http://placehold.it/232x232" alt="" class="photo-circle img-responsive">
+							<img src="http://placehold.it/232x232" alt="" class="photo-circle img-responsive mb10">
 						</div>
 						<div class="col-sm-4">
-							<img src="http://placehold.it/232x232" alt="" class="photo-circle img-responsive">
+							<img src="http://placehold.it/232x232" alt="" class="photo-circle img-responsive mb10">
 						</div>
 						<div class="col-sm-4">
-							<img src="http://placehold.it/232x232" alt="" class="photo-circle img-responsive">
+							<img src="http://placehold.it/232x232" alt="" class="photo-circle img-responsive mb10">
 						</div>
 					</div>
 					<p class="lead">A statement that expresses our <a href="#" class="annotation">culture and personality</a> including work-life balance. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget finibus erat. Proin sodales at mi vitae congue. Sed facilisis elementum lectus convallis rhoncus.</p>

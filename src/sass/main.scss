@@ -45,6 +45,10 @@
 			width: 54px;
 			object-fit: contain;
 		}
+
+		.logo-gold {
+			display: none;
+		}
 	}
 
 	.navbar-nav {
@@ -65,8 +69,64 @@
 			text-transform: uppercase;
 
 			&:hover {
-				background: rgba(#fff, 0.2);
+				background: $brandBlueLine;
 				border-radius: 3px;
+			}
+		}
+	}
+
+	&.bg-creme {
+
+		.logo-gold {
+			display: block;
+		}
+
+		.logo-creme {
+			display: none;
+		}
+
+		.navbar-nav {
+
+			a {
+				color: $brandGold;
+
+				&:hover {
+					background: $brandGoldLink;
+				}
+			}
+		}
+	}
+
+	&.bg-red {
+
+		.logo-gold {
+			display: none;
+		}
+
+		.navbar-nav {
+
+			a {
+
+				&:hover {
+					background: $brandGold;
+				}
+			}
+		}
+	}
+
+	&.bg-teal {
+
+		.logo-gold {
+			display: none;
+		}
+
+		.navbar-nav {
+
+			a {
+
+				&:hover {
+					background: $brandBlue;
+				}
 			}
 		}
 	}
@@ -112,20 +172,6 @@
 	Ancillary Items
 ----------------------------------------- */
 
-.section-title {
-	position: relative;
-	font-family: $heading-font;
-	font-size: 40px;
-	font-style: italic;
-	color: #fff;
-	text-transform: lowercase;
-	text-align: center;
-
-	@media (max-width: $screen-xs-max) {
-		margin-bottom: 30px;
-	}
-}
-
 .photo-circle {
 	margin: 0 auto;
 	border-radius: 50%;
@@ -140,6 +186,18 @@
 
 	.pic {
 		position: relative;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		.pic {
+			background: red;
+			max-width: 480px;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+			}
+		}
 	}
 }
 
@@ -201,39 +259,63 @@ a.annotation {
 }
 
 .pull-quote {
-	float: right;
-	width: 33.33333333%;
-	margin: 0 0 40px 40px;
-	padding: 0 0 0 40px;
 	border-left: 1px solid $brandGoldLine;
 	font-size: 1.412em;
 	line-height: 1.458;
 	color: $brandTeal;
 	font-style: italic;
+
+	@media (min-width: $screen-md) {
+		float: right;
+		width: 40%;
+		margin: 0 -20% 40px 40px;
+		padding: 0 0 0 40px;
+	}
 }
 
 .role-box {
 	@extend .mb30;
+	text-align: center;
 
 	.icon {
-		display: table-cell;
-		vertical-align: top;
 
 		img {
-			width: 100px;
+			width: 80px;
 			//height: 96px;
 			object-fit: contain;
 		}
 	}
 
 	.role {
-		display: table-cell;
-		vertical-align: middle;
 		margin: 0;
-		padding-left: 10px;
-		font-size: 1.647em;
+		font-size: 1.412em;
 	}
 
+	@media (min-width: $screen-md) {
+		.icon {
+			display: table-cell;
+			vertical-align: top;
+		}
+
+		.role {
+			display: table-cell;
+			vertical-align: middle;
+			padding-left: 10px;
+		}
+	}
+
+	@media (min-width: $screen-lg) {
+		.icon {
+
+			img {
+				width: 100px;
+			}
+		}
+
+		.role {
+			font-size: 1.647em;
+		}
+	}
 }
 
 .knowledge-box {
@@ -258,7 +340,7 @@ a.annotation {
 	text-align: center;
 
 	.upper {
-		@extend .mb50;
+		//@extend .mb50;
 	}
 
 	.icon {
@@ -269,8 +351,32 @@ a.annotation {
 
 	.title {
 		@extend .mt30;
-		@extend .mb40;
-		font-size: 2.588em;
+		margin-bottom: 20px;
+		font-size: 2.118em;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		margin-bottom: 60px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	@media (min-width: $screen-sm) {
+		.upper {
+			margin-bottom: 50px;
+		}
+
+		.title {
+			margin-bottom: 40px;
+		}
+	}
+
+	@media (min-width: $screen-md) {
+		.title {
+			font-size: 2.588em;
+		}
 	}
 }
 
@@ -329,12 +435,7 @@ a.annotation {
 
 		.title {
 			@extend .mt0;
-			font-size: 3.412em;
-		}
-
-		.lead {
-			font-size: 1.118em;
-			line-height: 1.526;
+			font-size: 2.588em;
 		}
 	}
 
@@ -342,11 +443,31 @@ a.annotation {
 		background-position: center;
 		background-size: cover;
 	}
+
+	@media (max-width: $screen-xs-max) {
+		.image-box {
+			min-height: 200px;
+		}
+	}
+
+	@media (min-width: $screen-sm) {
+		.copy-box {
+
+			.title {
+				font-size: 3.412em;
+			}
+
+			.lead {
+				font-size: 1.118em;
+				line-height: 1.526;
+			}
+		}
+	}
 }
 
 .help-box {
 	@extend .mb40;
-	border-bottom: 1px solid rgba(#fff, 0.2);
+	border-bottom: 1px solid $brandBlueLine;
 
 	> div {
 		@extend .pb20;
@@ -362,7 +483,7 @@ a.annotation {
 	}
 
 	.title {
-		font-size: 2.588em;
+		font-size: 2.118em;
 	}
 
 	.eyebrow {
@@ -394,9 +515,75 @@ a.annotation {
 			}
 		}
 	}
+
+	@media (min-width: $screen-lg) {
+		.title {
+			font-size: 2.588em;
+		}
+	}
 }
 
-.client-list {
+.process-box {
+	border: 1px solid $brandGold;
+
+	.lower {
+		padding: 10px;
+
+		.eyebrow {
+		}
+
+		.desc {
+			font-size: 0.882em;
+			line-height: 1.267;
+		}
+	}
+
+	@media (max-width: $screen-xs-max) {
+		.lower {
+
+			.eyebrow {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	@media (min-width: $screen-sm) {
+		.lower {
+
+			.eyebrow {
+				display: table-cell;
+				vertical-align: middle;
+				width: 30%;
+				padding-right: 10px;
+				border-right: 1px solid $brandGoldLine;
+				text-align: center;
+			}
+
+			.desc {
+				display: table-cell;
+				vertical-align: top;
+				padding-left: 10px;
+			}
+		}
+	}
+}
+
+.process-carousel {
+
+	&.owl-theme .owl-dots .owl-dot.active span,
+	&.owl-theme .owl-dots .owl-dot:hover span {
+		background: $brandGold;
+	}
+
+	&.owl-theme .owl-dots .owl-dot span {
+		width: 20px;
+		height: 20px;
+		background: $brandGoldLine;
+	}
+}
+
+.client-list-box {
+	margin-bottom: 40px;
 	padding-right: 40px;
 	padding-left: 40px;
 
@@ -420,6 +607,10 @@ a.annotation {
 				content: ' ›';
 			}
 		}
+	}
+
+	@media (min-width: $screen-sm) {
+		margin-bottom: 60px;
 	}
 }
 
@@ -464,9 +655,10 @@ a.annotation {
 		font-style: italic;
 	}
 
-	@media (max-width: $screen-sm-max) {
+	@media (max-width: $screen-xs-max) {
 		padding-top: 20px;
 		border-top: 1px solid $brandGoldLine;
+		text-align: center;
 	}
 
 	@media (min-width: $screen-sm) {
@@ -562,6 +754,7 @@ a.annotation {
 		border-bottom: none;
 		border-radius: 4px;
 		color: $brandCremeText;
+		white-space: nowrap;
 
 		&:hover,
 		&:focus {
@@ -586,7 +779,7 @@ a.annotation {
 
 	.description {
 		font-family: $secondary-font;
-		font-size: 2em;
+		font-size: 1.529em;
 		line-height: 1.24;
 		color: $brandCremeText;
 	}
@@ -605,6 +798,10 @@ a.annotation {
 			.title {
 				font-size: 2.000em;
 			}
+		}
+
+		.description {
+			font-size: 2em;
 		}
 	}
 }
@@ -625,9 +822,18 @@ a.annotation {
 		margin-left: -5px;
 
 		 > [class*='col-'] {
+			margin-bottom: 10px;
 			padding-right: 5px;
 			padding-left: 5px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
 		}
+	}
+
+	img {
+		margin: 0 auto;
 	}
 }
 
@@ -673,7 +879,7 @@ section {
 
 	.title {
 		@extend .mb20;
-		font-size: 2.588em;
+		font-size: 2.118em;
 
 		a {
 			border: none;
@@ -681,10 +887,30 @@ section {
 	}
 
 	.btn {
-		float: right;
 		margin-top: 8px;
-		margin-left: 50px;
 
+	}
+
+	.desc {
+		margin-bottom: 0;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		figure {
+			margin: 0 auto;
+			margin-bottom: 20px;
+			max-width: 480px;
+
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	@media (min-width: $screen-md) {
+		.title {
+			font-size: 2.588em;
+		}
 	}
 }
 
@@ -861,13 +1087,28 @@ section {
 	height: 94px;
 }
 
-.client-list {
+.goodstock-client-list {
 	padding: 0;
 
 	ul {
 		-webkit-columns: 3;
 		-moz-columns: 3;
 		columns: 3;
+	}
+
+	p, ul {
+		font-size: 0.882em;
+		line-height: 1.267;
+	}
+
+	ul {
+		padding-left: 0;
+		list-style: none;
+
+		span {
+			display: inline-block;
+			margin-bottom: 15px;
+		}
 	}
 }
 
@@ -880,9 +1121,10 @@ section {
 
 		li {
 			padding-top: 5px;
+			padding-bottom: 20px;
 			border-top: 1px solid $brandBlueLine;
 			@extend .eyebrow;
-			font-size: 1.200em;
+			font-size: 1.059em;
 			color: $brandGoldOnBlue;
 
 			a {
@@ -892,6 +1134,10 @@ section {
 				&:hover,
 				&:focus {
 					color: $brandCremeText;
+				}
+
+				&:after {
+					content: ' ›';
 				}
 			}
 		}
@@ -997,11 +1243,11 @@ section {
 	}
 
 	.bottom-bar {
-		@extend .mt70;
-		@extend .pt30;
-		border-top: 1px solid rgba(#fff,0.2);
+		margin-top: 70px;
+		padding-top: 30px;
+		border-top: 1px solid $brandBlueLine;
 		font-size: 0.824em;
-		line-height: 1;
+		line-height: 1.429;
 		text-align: center;
 
 		> li {
@@ -1022,6 +1268,21 @@ section {
 			&:focus {
 				border-color: $brandTeal;
 			}
+		}
+	}
+
+	@media (max-width: $screen-sm-max) {
+
+		h2 {
+			font-size: 2.118em;
+		}
+
+		.profile {
+			margin-top: 30px;
+		}
+
+		.bottom-bar {
+			margin-top: 30px;
 		}
 	}
 }
