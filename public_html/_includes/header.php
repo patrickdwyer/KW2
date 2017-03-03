@@ -28,25 +28,28 @@
 
 <body>
 
-	<nav class="navbar navbar-fixed-left bg-creme">
-		<a class="navbar-brand" href="/">
-			<img src="/img/logo-kw2-creme.png" srcset="/img/logo-kw2-creme@2x.png 2x, /img/logo-kw2-creme@3x.png 3x" alt="KW2" class="logo logo-creme">
-			<img src="/img/logo-kw2-gold.png" srcset="/img/logo-kw2-gold@2x.png 2x, /img/logo-kw2-gold@3x.png 3x" alt="KW2" class="logo logo-gold">
-		</a>
-		<ul class="nav navbar-nav">
-			<li><a href="#">Work</a></li>
-			<li><a href="#">Us</a></li>
-			<li><a href="#">Careers</a></li>
-			<li><a href="#">Contact</a></li>
-			<!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">Sub Menu1</a></li>
-					<li><a href="#">Sub Menu2</a></li>
-					<li><a href="#">Sub Menu3</a></li>
-					<li class="divider"></li>
-					<li><a href="#">Sub Menu4</a></li>
-					<li><a href="#">Sub Menu5</a></li>
-				</ul>
-			</li>-->
-		</ul>
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">
+					<img src="/img/logo-kw2-creme.png" srcset="/img/logo-kw2-creme@2x.png 2x, /img/logo-kw2-creme@3x.png 3x" alt="KW2" class="logo logo-creme">
+				</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#">Work</a></li>
+				<li><a href="#">Us</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Contact</a></li>
+				<!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Sub Menu1</a></li>
+						<li><a href="#">Sub Menu2</a></li>
+						<li><a href="#">Sub Menu3</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Sub Menu4</a></li>
+						<li><a href="#">Sub Menu5</a></li>
+					</ul>
+				</li>-->
+			</ul>
+		</div>
 	</nav>
