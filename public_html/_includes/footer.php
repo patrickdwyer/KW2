@@ -1,17 +1,17 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-7 col-sm-offset-2">
+				<div class="col-sm-9 col-lg-7 col-lg-offset-1">
 					<h2>Interested in working together?<br>Jen would love to chat.</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor at ipsum nec finibus. Aliquam erat volutpat.</p>
 					<a href="#" class="btn btn-primary-dark btn-lg">Email Jen</a>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3 col-lg-3">
 					<figure class="profile">
 						<img src="http://placehold.it/184x184" alt="" class="photo-circle img-responsive">
 					</figure>
 				</div>
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<ul class="list-inline bottom-bar">
 						<li>
 							&copy; 2016 KW2

@@ -15,7 +15,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<div class="row border-between">
 						<div class="col-sm-12 col-md-4 team-box text-center">
@@ -60,7 +60,7 @@
 	<section class="bg-primary">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<h1>We love our hood</h1>
 					<p>Here’s a description of <a href="#" class="annotation">our hood</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget finibus erat. Proin sodales at mi vitae congue.</p>

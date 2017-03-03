@@ -53,7 +53,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<?php include '_includes/articles-list.php';?>
 					<!--end content-->

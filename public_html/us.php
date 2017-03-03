@@ -15,7 +15,7 @@
 	<section class="bg-base bg-cover" style="background-image: url(/img/bg-staff-meeting.jpg);">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<p class="eyebrow text-center">Capabilities</p>
 					<h1 class="text-center">Here’s what we believe.</h1>
@@ -31,7 +31,7 @@
 	<section class="bg-primary">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<p class="eyebrow text-center mb70">KW2 Has the Experience to Help You:</p>
 					<div class="row">
@@ -69,7 +69,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<p class="eyebrow text-center mb70">Leadership</p>
 					<div class="row">

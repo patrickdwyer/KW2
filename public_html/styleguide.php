@@ -1,9 +1,21 @@
 <?php include '_includes/header.php';?>
 
-	<section>
+	<header class="header page-title">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
+				<div class="col-sm-8 col-sm-offset-2">
+					<p class="eyebrow">&nbsp;</p>
+					<h1 class="title">Us</h1>
+					<p class="description">This is what it looks like when an agency  punches above its weight.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="bg-base">
+		<div class="container content-container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<h1 class="page-title">Page Title</h1>
 					<h1>Headline 1</h1>
 					<h2>Headline 2</h2>

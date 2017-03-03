@@ -15,7 +15,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<div class="row">
 						<div class="col-sm-7 col-md-8">
@@ -62,7 +62,7 @@
 	<section class="bg-primary">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<p class="eyebrow mb60">We're Here to Help You:</p>
 					<div class=" help-box">
@@ -130,7 +130,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<h1>How we do it</h1>
 					<p>You won’t watch our process unfold. You’ll take part in it every step of the way. Every intake meeting, document and review is designed to tighten our team—uniting us with a shared understanding of your customers’ needs and your organization’s brand and core competencies. We’ll make every interaction matter and we’ll make every interaction measurable. So that the experience we finally create exceeds all the goals we’ve set together.</p>
@@ -177,7 +177,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<div class="row">
 						<div class="col-sm-8">

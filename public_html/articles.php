@@ -15,7 +15,7 @@
 	<section class="bg-secondary featured-article" style="background-image: url(/img/bg-downtown-madison-wi-arts-entertainment-and-politics-1.jpg);">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<p class="subtitle">Featured Article</p>
 					<h2 class="title"><a href="#">Headline to a paradigm-shifting article we wrote…are you prepared?</a></h2>
 					<a href="#" class="btn btn-default btn-white btn-outline btn-lg">Read More</a>
@@ -28,7 +28,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<ul class="list-inline text-center">
 						<li ><a href="#" class="btn btn-primary btn-noborder active">All</a></li>

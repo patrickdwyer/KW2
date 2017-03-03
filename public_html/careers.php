@@ -15,7 +15,7 @@
 	<section class="bg-secondary">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<h1 class="subtitle">Work and life at KW2</h1>
 					<div class="row mt40 mb30">
@@ -39,7 +39,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<h1 class="subtitle">We've got benefits</h1>
 					<p>Normal benefits like health insurance and 401(k). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget finibus erat. Proin sodales at mi vitae congue. Sed facilisis elementum lectus convallis rhoncus.</p>
@@ -93,7 +93,7 @@
 	<section class="bg-primary">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<h1 class="mb70">Current Opportunities</h1>
 					<div class="row current-opportunities">

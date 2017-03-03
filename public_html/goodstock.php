@@ -16,7 +16,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<h1 class="subtitle">What is Goodstock?</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum nibh id fermentum consectetur. Morbi ac porta odio. In vehicula aliquet nibh. Morbi placerat convallis nulla, eu rutrum elit condimentum eu. Cras eget euismod urna. Donec maximus elit ac convallis volutpat. Sed ultrices eros a libero luctus commodo. Donec ut sapien justo.</p>
@@ -43,7 +43,7 @@
 	<section class="bg-base">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<h1>Who We've Worked With</h1>
 
@@ -109,7 +109,7 @@
 	<section class="bg-base bg-cover" style="background-image: url(/img/bg-staff-meeting.jpg);">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<div class="row">
 						<div class="col-sm-7 col-md-8">
@@ -134,7 +134,7 @@
 	<section class="bg-primary">
 		<div class="container content-container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-2">
+				<div class="col-sm-12 col-lg-10 col-lg-offset-1">
 					<!--start content-->
 					<div class="row">
 						<div class="col-sm-7 col-md-8">
