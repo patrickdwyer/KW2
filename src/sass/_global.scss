@@ -135,6 +135,16 @@ Misc
 	color: $brandCremeText;
 }
 
+.bg-teal {
+	background-color: $brandTeal;
+	color: $brandCremeText;
+}
+
+.bg-red {
+	background-color: $brandRed;
+	color: $brandCremeText;
+}
+
 .bg-dark {
 	background-color: $gray-darker;
 	color: #fff;
@@ -150,6 +160,22 @@ Misc
 
 .text-faded {
 	color: rgba(#fff, 0.7);
+}
+
+.text-gold {
+	color: $brandGold;
+}
+
+.text-goldonblue {
+	color: $brandGoldOnBlue
+}
+
+.text-teal {
+	color: $brandTeal;
+}
+
+.text-red {
+	color: $brandRed;
 }
 
 //.btn-primary-dark //gold on navy

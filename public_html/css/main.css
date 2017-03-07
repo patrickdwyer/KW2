@@ -296,8 +296,19 @@ Misc
   background-color: #003b5c;
   color: #fffcf8; }
 
-.bg-secondary {
+.bg-secondary, .base-gold .case-study-intro,
+.base-gold .testimonial-block {
   background-color: #c6893f;
+  color: #fffcf8; }
+
+.bg-teal, .base-teal .case-study-intro,
+.base-teal .testimonial-block {
+  background-color: #0e828e;
+  color: #fffcf8; }
+
+.bg-red, .base-red .case-study-intro,
+.base-red .testimonial-block {
+  background-color: #f4364c;
   color: #fffcf8; }
 
 .bg-dark {
@@ -312,6 +323,18 @@ Misc
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
+
+.text-gold, .base-gold .factoid {
+  color: #c6893f; }
+
+.text-goldonblue {
+  color: #d3924a; }
+
+.text-teal, .base-teal .factoid {
+  color: #0e828e; }
+
+.text-red, .base-red .factoid {
+  color: #f4364c; }
 
 .btn-primary-dark {
   color: #d3924a;
@@ -597,6 +620,9 @@ body {
         .navbar .navbar-nav a {
           padding: 10px 10px; } }
   @media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+      margin-left: 0; }
     .navbar .navbar-brand .logo {
       width: 62px; }
     .navbar .navbar-nav {
@@ -903,10 +929,13 @@ a.annotation {
   .bg-primary a.annotation:hover, .bg-primary a.annotation:focus {
     background: #c6893f; }
 
-.bg-secondary a.annotation {
+.bg-secondary a.annotation, .base-gold .case-study-intro a.annotation,
+.base-gold .testimonial-block a.annotation {
   background: #0e828e;
   color: #fffcf8; }
-  .bg-secondary a.annotation:hover, .bg-secondary a.annotation:focus {
+  .bg-secondary a.annotation:hover, .base-gold .case-study-intro a.annotation:hover,
+  .base-gold .testimonial-block a.annotation:hover, .bg-secondary a.annotation:focus, .base-gold .case-study-intro a.annotation:focus,
+  .base-gold .testimonial-block a.annotation:focus {
     background: #003b5c; }
 
 @media (min-width: 768px) {
@@ -944,6 +973,9 @@ a.annotation {
       font-family: "Ciutadella-SemiBold", Helvetica, Arial, sans-serif;
       font-size: 1.529em;
       color: #d3924a; }
+  .header.case-study .title {
+    font-size: 4.706em;
+    line-height: 1; }
   .header a {
     padding: 2px 11px;
     background: #286486;
@@ -958,7 +990,6 @@ a.annotation {
   .header .eyebrow, .header .partner-list ul li, .partner-list ul .header li, .header .benefit-list ul li, .benefit-list ul .header li {
     color: #d3924a; }
   .header .title {
-    line-height: 1;
     line-height: 1.235;
     color: #fffcf8; }
   .header .description {
@@ -1151,6 +1182,78 @@ section.overflow-hidden {
     background: linear-gradient(to bottom, #003b5c 0%, rgba(0, 59, 92, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003b5c', endColorstr='#00003b5c',GradientType=0 );
+    /* IE6-9 */ }
+
+/* -----------------------------------------
+	Case Studies
+----------------------------------------- */
+.base-teal .bg-primary .factoid {
+  color: #fffcf8; }
+
+.base-red .bg-primary .factoid {
+  color: #fffcf8; }
+
+.case-study-intro .lead {
+  font-size: 1.824em;
+  line-height: 1.258; }
+
+.case-study-intro .eyebrow, .case-study-intro .partner-list ul li, .partner-list ul .case-study-intro li, .case-study-intro .benefit-list ul li, .benefit-list ul .case-study-intro li {
+  color: #fffcf8; }
+
+.case-study-intro .whatwedid {
+  padding-left: 0;
+  list-style: none;
+  font-size: 0.941em;
+  line-height: 1.375; }
+  .case-study-intro .whatwedid li {
+    margin-bottom: 10px; }
+
+.factoid {
+  font-size: 1.412em;
+  line-height: 1.458;
+  font-style: italic; }
+
+.testimonial-block {
+  padding: 90px 0;
+  text-align: center; }
+  .testimonial-block .quote {
+    font-family: "Ciutadella-SemiBold", Helvetica, Arial, sans-serif;
+    font-size: 1.824em;
+    line-height: 1.258; }
+  .testimonial-block .eyebrow, .testimonial-block .partner-list ul li, .partner-list ul .testimonial-block li, .testimonial-block .benefit-list ul li, .benefit-list ul .testimonial-block li {
+    color: #fffcf8; }
+
+.next-project {
+  position: relative;
+  padding-bottom: 0;
+  background-position: center;
+  background-size: cover; }
+  .next-project .row {
+    position: relative;
+    border-bottom: 1px solid #286486; }
+  .next-project .title {
+    margin-bottom: 60px; }
+    .next-project .title a {
+      font-size: 2.059em;
+      color: #fffcf8; }
+      .next-project .title a:hover, .next-project .title a:focus {
+        color: #d3924a; }
+      .next-project .title a:after {
+        content: ' ›'; }
+  .next-project .overlay, .next-project:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(top, rgba(0, 59, 92, 0) 0%, #003b5c 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 59, 92, 0) 0%, #003b5c 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 59, 92, 0) 0%, #003b5c 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00003b5c', endColorstr='#003b5c',GradientType=0 );
     /* IE6-9 */ }
 
 /* -----------------------------------------

@@ -69,6 +69,11 @@
 
 	@media (min-width: $screen-sm) {
 
+		>.container .navbar-brand,
+		>.container-fluid .navbar-brand {
+			margin-left: 0;
+		}
+
 		.navbar-brand {
 
 			.logo {
@@ -662,6 +667,15 @@ a.annotation {
 		}
 	}
 
+	&.case-study {
+
+		.title {
+			font-size: 4.706em;
+			line-height: 1;
+		}
+
+	}
+
 	a {
 		padding: 2px 11px;
 		background: $brandBlueAnnot;
@@ -686,7 +700,6 @@ a.annotation {
 
 	.title {
 		@extend .mb30;
-		line-height: 1;
 		line-height: 1.235;
 		color: $brandCremeText;
 	}
@@ -986,6 +999,148 @@ section {
 			background: linear-gradient(to bottom, rgba($brandBlue,1) 0%,rgba($brandBlue,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003b5c', endColorstr='#00003b5c',GradientType=0 ); /* IE6-9 */
 		}
+	}
+}
+
+/* -----------------------------------------
+	Case Studies
+----------------------------------------- */
+
+.base-gold {
+
+	.case-study-intro,
+	.testimonial-block  {
+		@extend .bg-secondary;
+	}
+
+	.factoid {
+		@extend .text-gold;
+	}
+}
+
+.base-teal {
+
+	.case-study-intro,
+	.testimonial-block  {
+		@extend .bg-teal;
+	}
+
+	.factoid {
+		@extend .text-teal;
+	}
+
+	.bg-primary {
+
+		.factoid {
+			color: $brandCremeText;
+		}
+	}
+}
+
+.base-red {
+
+	.case-study-intro,
+	.testimonial-block  {
+		@extend .bg-red;
+	}
+
+	.factoid {
+		@extend .text-red;
+	}
+
+	.bg-primary {
+
+		.factoid {
+			color: $brandCremeText;
+		}
+	}
+}
+
+.case-study-intro {
+
+	.lead {
+		font-size: 1.824em;
+		line-height: 1.258;
+	}
+
+	.eyebrow {
+		color: $brandCremeText;
+	}
+
+	.whatwedid {
+		padding-left: 0;
+		list-style: none;
+		font-size: 0.941em;
+		line-height: 1.375;
+
+		li {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.factoid {
+	font-size: 1.412em;
+	line-height: 1.458;
+	font-style: italic;
+}
+
+.testimonial-block {
+	padding: 90px 0;
+	text-align: center;
+
+	.quote {
+		font-family: $secondary-font;
+		font-size: 1.824em;
+		line-height: 1.258;
+	}
+
+	.eyebrow {
+		color: $brandCremeText;
+	}
+}
+
+.next-project {
+	position: relative;
+	padding-bottom: 0;
+	background-position: center;
+	background-size: cover;
+
+	.row {
+		position: relative;
+		border-bottom: 1px solid $brandBlueLine;
+	}
+
+	.title {
+		margin-bottom: 60px;
+
+	 a {
+			font-size: 2.059em;
+			color: $brandCremeText;
+
+			&:hover,
+			&:focus {
+				color: $brandGoldOnBlue;
+			}
+
+			&:after {
+				content: ' ›';
+			}
+		}
+	}
+
+	.overlay,
+	&:before {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: -moz-linear-gradient(top, rgba($brandBlue,0) 0%, rgba($brandBlue,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba($brandBlue,0) 0%,rgba($brandBlue,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba($brandBlue,0) 0%,rgba($brandBlue,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00003b5c', endColorstr='#003b5c',GradientType=0 ); /* IE6-9 */
 	}
 }
 
